@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 15px;
+    margin-left: 50px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+body{
+    width:1000px;
+    background-color: rgb(128, 128, 128,0.3);
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior:smooth;
+    overflow-x:hidden;
+    scroll-padding-top:7rem;
+
+}
+
+.container {
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 2.5rem; /* Ajustez la taille de la police au besoin */
+    color: rgb(57, 68, 107);
+    text-align: center;
+}
+
+.container img {
+    width: 80%;
+    margin: 20px auto; /* Centrer l'image horizontalement */
+    display: block; /* Assurez-vous que l'image est un élément de bloc */
+}
+
+.container p {
+    font-weight: 500;
+    font-size: 1.6rem; /* Ajustez la taille de la police au besoin */
+}
+
+.container video {
+    width: 80%;
+    display: block; /* Assurez-vous que la vidéo est un élément de bloc */
+    margin: 20px auto; /* Centrer la vidéo horizontalement */
+}
+
+.container h2 {
+    color: rgb(88, 136, 136);
+}
+
+
+.photoart{
+    width:60%;
+    height:60%;
+    margin-top: 20px;
+
+    margin-bottom:12px;
+
+}
+
+
+p{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+h2{
+    color:rgb(88, 136, 136);
+}
+.title{
+    color:rgb(57, 68, 107);
+    font-size: 40px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.image-logo {
+    width:80px;
+    height:80px;
+    margin-top: -30px;
+}
+.navbar{
+    padding:2% 6%;
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: stretch;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.347);
+}
+.title1 {
+    font-size: 40px; /* Adjust font size */
+    font-weight: 700; /* Bold font */
+    color: rgb(192, 140, 55); /* Orange color */
+    text-align: center; /* Center align text */
+    margin-top: 20px; /* Adjust top margin */
+    margin-top: -10px;
+    -webkit-text-stroke: 0.5px rgb(36, 24, 14);
+    margin-right: 18px;
+}
+

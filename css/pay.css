@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.box-home{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(62, 7, 61, 0.65),rgba(9,0,77,0.65)),url("../photos/backgrounds/pilates4.jpeg");
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    padding-bottom: 50px;
+    height:100%;
+}
+.form{
+    width: 650px;
+    padding: 40px;
+    
+    border-radius: 10px;
+    
+    background-color: rgba(188, 178, 188, 0.5);
+    margin-top: 90px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    
+    gap: 15px;
+}
+.column{
+    flex:1 1 250px
+}
+.flex{
+    display: flex;
+    gap: 15px;
+}
+.title{         
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom:5px ;
+}
+.input-box{
+    margin: 15px 0;
+}
+.input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.input-box span{
+    display: block;
+    margin-bottom: 10px;
+}
+.img{
+    height: 34px;
+    margin-top: 5px;
+}
+.flex .input-box{
+    margin-top: 5px;
+}
+.btn{
+    width: 100%;
+    padding: 12px;
+    background-color: #f992a8;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #FFF;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#f97591 ;
+}

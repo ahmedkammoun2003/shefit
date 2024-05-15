@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 15px;
+    margin-left: 80px;
+    box-sizing: border-box; 
+}
+body{
+    width:1000px;
+    background-color: rgb(128, 128, 128,0.3);
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior:smooth;
+    overflow-x:hidden;
+    scroll-padding-top:7rem;
+
+}
+
+.image-list {
+    list-style-type: none; 
+}
+.image-list li {
+    background: url('../photos/backgrounds/puce.png') no-repeat left center; 
+    background-position-x: -20px;
+}
+
+
+.photoart{
+    width:80%;
+    margin-top: 20px;
+
+    margin-bottom:12px;
+
+}
+table {
+    border: 3px solid #d9d5d5;
+    border-radius:10px;
+
+}
+.adhesion{  background-color:rgb(115, 174, 233);
+    border-radius:10px ;
+    border:3px solid rgba(76, 76, 133, 0.458);
+    color:aliceblue;
+    width:60px;
+    
+ }
+p,li,ul{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.taille2{
+    font-weight:700;
+
+}
+h2{
+    color:rgb(88, 136, 136);
+}
+.title{
+    color:rgb(57, 68, 107);
+    font-size: 50px;
+    text-align: center;
+    margin-right: 30px;
+}
+.li{
+    color:rgb(129, 77, 179);
+}
+.bienfaits{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cadre2{
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(65, 67, 72, 0.801);
+    background-color: rgb(154, 123, 183);
+    padding:0;
+    width:300px;
+    height:200px;
+    margin-top: 280px;
+    margin-left: -25px;
+    padding:15px;
+    text-align: center;
+}
+.cadre1{
+    margin-left: -100px;
+    width:600px;
+}
+.phappy{
+    background-color: rgba(147, 221, 221, 0.4);
+    margin-top:50px;
+    border-radius: 20px;
+    
+}
+.puce-happy{
+    
+        list-style-type: none; /* Supprime les puces par défaut */
+}
+.puce-happy li {
+    background: url('../photos/backgrounds/smile.png') no-repeat left center; 
+    padding-left: 20px; 
+    background-size:20px 20px;
+}
+.graycolor{
+    background-color: rgba(132, 174, 172, 0.166);
+    margin-top: 50px;
+}
+.recette{
+    display:grid;
+}
+
+.graycolor1{
+    background-color: rgba(13, 171, 163, 0.166);
+    font-size:20px;
+    width:600px;
+    border:1px solid gray;
+
+
+}
+.span{
+    font-size: 20px;
+    border:1px solid gray;
+    width:600px;
+
+
+}
+.tr2{
+    font-weight: 500;
+}

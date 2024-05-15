@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <header class="header">
+        <img src="../photos/logo.png" class="image-logo" >
+        <nav class="navbar">
+            <a href="../index.html#home">ACCUEIL</a>
+            <a href="../index.html#about" class="healthy1">À PROPOS</a>
+            <a href="../index.html#healthy" class="healthy1">VIE SAINE</a>
+
+            <a href="workout.html">ENTRAÎNEMENTS</a>
+            
+            <div class="login">
+                <a href="profile.html">
+                    <i class="fas fa-user" style="color: #ffffff; font-size: 150%;margin-top: 10px;margin-left:100px;"></i>
+                </a>
+                <a href="./form/login.html" >
+                    <button class="login">Connexion</button>
+                </a>
+                <a href="./form/signup.html">
+                    <button class="signup">Inscription</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="container center">
+        <h1 class="center">username</h1>
+        <h1 class="center">@username</h1>
+        <img src="../photos/profile/default.jpg" id="img"/>
+        <form>
+            <label for="image" class="center">Choose Image:</label>
+            <input type="file" name="image" id="image" class="center"/>
+        </form>
+        <table id="graph"></table>
+        <a href="../game web/game.html"><button type="button">gagner des cuppons</button></a>
+    </div>
+</body>
+<script src="../js/profile.js"></script>
+</html>
